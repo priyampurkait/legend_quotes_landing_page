@@ -22,8 +22,8 @@ const HomePage = () => {
             <a
               className="btn btn btn-dark  btn-md px-4"
               style={{ fontWeight: "600", borderRadius: 0, boxShadow: "8px 8px #5f5f5f"}}
-              href="#"
-              role="button"
+              href="/"
+              
             >
               GET IT ON | Google Play
             </a>
@@ -32,8 +32,8 @@ const HomePage = () => {
           <a
               className="btn btn btn-dark btn-block  btn-md px-4"
               style={{ fontWeight: "600", borderRadius: 0, boxShadow: "8px 8px #5f5f5f", width: "100%"}}
-              href="#"
-              role="button"
+              href="/"
+              
             >
               GET IT ON | Google Play
             </a>

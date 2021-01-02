@@ -81,8 +81,7 @@ const Contact = () => {
           <a
               className="btn btn-dark btn-md px-4"
               style={{ fontWeight: "600", borderRadius: 0, boxShadow: "8px 8px #5f5f5f"}}
-              href="#"
-              role="button"
+              href="/"
             >
               GET IT ON | Google Play
             </a>
