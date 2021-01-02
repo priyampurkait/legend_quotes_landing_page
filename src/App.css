@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap&family=Paytone+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+
+html,
+body {
+  scroll-behavior: smooth;
+
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  /* font-size: 1rem; */
+  font-weight: 400;
+  /* background-color: #8ec06c; */
+  /* background-color: #f4f3cd;
+  background-color: #537b35; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-prime {
+  background-color: #8ec06c;
+}
+.text-prime {
+  color: #537b35;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-sec {
+  background-color: #f4f3cd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-sec {
+  color: #f4f3cd;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: snow;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* custome styles */
+
+.row-vh {
+  /* height: calc(100vh - 63.75px); */
+  height: 100vh;
+}
+
+.display-1,
+.display-6 {
+  color: #282828;
+  font-family: "Paytone One", sans-serif;
+}
+
+.h5 {
+  color: #424242;
+  font-weight: 600;
+  line-height: 1.6;
+  font-family: "Playfair Display";
+}
+
+.title {
+  font-family: "Paytone One", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.bg-blur {
+  background-color: rgb(16 16 16 / 80%);
+  -webkit-backdrop-filter: blur(2rem);
+  backdrop-filter: blur(2rem);
+
+  border-bottom: 2px solid #151515;
+}
+
+.btn:hover {
+  background-color: rgb(223, 169, 99);
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.overview-card {
+  border: 2px solid #202020;
+  border-radius: 0;
+  box-shadow: 8px 8px #52514e;
+}
+
+.form-card {
+  border: 2px solid #202020;
+  background: #8ec06c;
+  border-radius: 0;
+  box-shadow: 8px 8px #5b655a;
+}
+
+.form-control {
+  opacity: 0.6;
+  border: 2px solid #202020;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  opacity: 0.8;
+  border: 2px solid #101010;
+  border-radius: 0;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #000000 !important;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #000000 !important;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #000000 !important;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000000 !important;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000000 !important;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #000000 !important;
 }
