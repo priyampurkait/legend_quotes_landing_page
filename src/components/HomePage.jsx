@@ -22,8 +22,8 @@ const HomePage = () => {
             <a
               className="btn btn btn-dark  btn-md px-4"
               style={{ fontWeight: "600", borderRadius: 0, boxShadow: "8px 8px #5f5f5f"}}
-              href="/"
-              
+              href="https://play.google.com/store/apps?hl=en" target="_"
+              role="button"
             >
               GET IT ON | Google Play
             </a>
@@ -32,8 +32,8 @@ const HomePage = () => {
           <a
               className="btn btn btn-dark btn-block  btn-md px-4"
               style={{ fontWeight: "600", borderRadius: 0, boxShadow: "8px 8px #5f5f5f", width: "100%"}}
-              href="/"
-              
+              href="https://play.google.com/store/apps?hl=en" target="_"
+              role="button"
             >
               GET IT ON | Google Play
             </a>
@@ -44,7 +44,7 @@ const HomePage = () => {
         >
           <img
             className="img-fluid"style={{ maxHeight: "76vh" }}
-            src="./images/phone.png"
+            src="./images/phone.webp"
             alt="developer"
           />
         </div>

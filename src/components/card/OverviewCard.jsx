@@ -3,19 +3,19 @@ import React from "react";
 const overviewCard = () => {
   const overviews = [
     {
-      overviewsIcon: "/images/search.jpg",
+      overviewsIcon: "/images/search.webp",
       overviewsTitle: "Search",
       bgColor: "bg-secondary",
       overviewDescriptions: "You can search legends thoughts and biographies by typing author name.",
     },
     {
-      overviewsIcon: "/images/share.jpg",
+      overviewsIcon: "/images/share.webp",
       overviewsTitle: "Share",
       bgColor: "bg-success",
       overviewDescriptions: "You can copy legend thoughts and share it with your friends, on your social networking sites. You can share it anywhere",
     },
     {
-      overviewsIcon: "/images/favorites.jpg",
+      overviewsIcon: "/images/favorites.webp",
       overviewsTitle: "Add to Favorites",
       bgColor: "bg-primary",
       overviewDescriptions: "Add all your favorite thoughts in favorites list for quick access and sharing.",
