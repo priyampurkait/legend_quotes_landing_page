@@ -40,7 +40,7 @@ const HomePage = () => {
           </div>
         </div>
         <div
-          className=" col-lg-4 col-xl-4 col-xxl-3 col-6 mx-auto d-lg-flex py-5"
+          className=" col-md-4 col-xl-4 col-xxl-3 col-6 mx-auto d-lg-flex py-5"
         >
           <img
             className="img-fluid"style={{ maxHeight: "76vh" }}
