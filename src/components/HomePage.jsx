@@ -16,7 +16,7 @@ const HomePage = () => {
           <p
             className=" text-break h5 pt-4 text-center text-md-start"
           >
-            Download For Free
+            Download For Free | (Comming Soon)
           </p>
           <div className="pt-2 d-none d-md-block">
             <a

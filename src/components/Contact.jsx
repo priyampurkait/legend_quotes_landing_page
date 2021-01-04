@@ -76,10 +76,10 @@ const Contact = () => {
     <p
             className=" text-break h5 text-center"
           >
-            Download For Free
+            Download For Free | (Comming Soon)
           </p>
           <a
-              className="btn btn-dark btn-md px-4"
+              className="btn d-block btn-dark btn-md px-4"
               style={{ fontWeight: "600", borderRadius: 0, boxShadow: "8px 8px #5f5f5f"}}
               href="https://play.google.com/store/apps?hl=en" target="_"
               role="button"

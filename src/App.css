@@ -50,7 +50,7 @@ a:hover {
 
 .row-vh {
   /* height: calc(100vh - 63.75px); */
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .display-1,
